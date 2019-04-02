@@ -11,7 +11,13 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home
+      redirect: 'dashboard',
+      component: Home,
+      children: [{
+        path: 'dashboard',
+        name: 'dashboard',
+        component: () => import('@/views/dashboard/index'),
+      }]
     },
     {
       path: '/about',
