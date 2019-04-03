@@ -36,6 +36,12 @@ export default {
     left: 0;
     padding-top: 90px;
     box-sizing: border-box;
+    text-align: center;
+  }
+  .blog-menu > ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
   .menu-li {
     height: 50px;

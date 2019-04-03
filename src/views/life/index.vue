@@ -45,6 +45,7 @@ export default {
         pageIndex: this.pageIndex,
         pageSize: 10,
         title:'',
+        type: this.$route.name,
       }
       getList(params).then(res => {
         this.articleList = res.data.list

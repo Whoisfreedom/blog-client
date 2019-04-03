@@ -17,7 +17,28 @@ export default new Router({
         path: 'dashboard',
         name: 'dashboard',
         component: () => import('@/views/dashboard/index'),
-      }]
+      }, {
+        path: 'anything',
+        name: 'anything',
+        component: () => import('@/views/anything/index'),
+      }, {
+        path: 'htmlCss',
+        name: 'htmlCss',
+        component: () => import('@/views/htmlCss/index'),
+      }, {
+        path: 'javaScript',
+        name: 'javaScript',
+        component: () => import('@/views/javaScript/index'),
+      }, {
+        path: 'life',
+        name: 'life',
+        component: () => import('@/views/life/index'),
+      }, {
+        path: 'articleDetail',
+        name: 'articleDetail',
+        component: () => import('@/views/articleDetail/index'),
+      }
+      ]
     },
     {
       path: '/about',

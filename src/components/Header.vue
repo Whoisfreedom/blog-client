@@ -2,7 +2,7 @@
   <div class="blog-header">
     <img class="header-icon" :src="iconUrl" alt="">
     <div class="header-word">
-      <h3>whoisfreedom</h3>
+      <h4>whoisfreedom</h4>
       <p>行到水穷处，坐看云起时！</p>
     </div>
   </div>
@@ -40,8 +40,9 @@ export default {
     padding-left: 300px;
     padding-top: 30px;
   }
-  .header-word h3 {
-    font-size: 48px;
+  .header-word h4 {
+    font-size: 36px;
+    margin: 10px 0;
   }
   .header-word p {
     line-height: 20px;
